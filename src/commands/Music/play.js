@@ -8,7 +8,7 @@ module.exports = class Play extends Command {
       description: {
         content: "Spotify, Soundcloud, YouTube, Apple Music and Deezer.",
         examples: [
-          "`play <spotifySongName/URL|soundcloudSongName/URL>`",
+          "`play <songName|songURL>`",
         ],
         usage: "play <songURL/songName>",
       },
