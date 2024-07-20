@@ -20,7 +20,7 @@ module.exports = class MessageCreate extends Event {
     const mention = new RegExp(`^<@!?${this.client.user.id}>( |)$`);
     if (message.content.match(mention)) {
       await message.reply({
-        content: `Hey, my prefix for this server is \`${prefix.prefix}\` Want more info? then do \`${prefix.prefix}help\`\nStay Safe, Stay Awesome!`,
+        content: ``,
       });
       return;
     }
