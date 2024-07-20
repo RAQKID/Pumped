@@ -6,10 +6,9 @@ module.exports = class Play extends Command {
     super(client, {
       name: "play",
       description: {
-        content: "Spotify, Soundcloud and YouTube URL.",
+        content: "Spotify, Soundcloud, YouTube, Apple Music and Deezer.",
         examples: [
           "`play <spotifySongName/URL|soundcloudSongName/URL>`",
-          "`play <youtubeURL>`",
         ],
         usage: "play <songURL/songName>",
       },
