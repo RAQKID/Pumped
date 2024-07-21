@@ -58,7 +58,7 @@ module.exports = class Help extends Command {
         });
       });
       const helpEmbed = embed
-        .setColor(this.client.color.main)
+        .setColor("00FF00")
         .setTitle("Help Menu")
         .setDescription(
           `Hey there! I'm ${this.client.user.username}, a DrinkIt Premium (Music). You can use \`${prefix.prefix}help <command>\` to get more info on a command.`
